@@ -15,6 +15,8 @@
       <list>
         <option value="$PROJECT_DIR$/DataAccess/Models/Note.cs" />
         <option value="$PROJECT_DIR$/DataAccess/AppDbContext.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/appsettings.Development.json" />
       </list>
     </option>
   </component>
@@ -26,6 +28,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.beanstalk-net: IIS Express">
@@ -68,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640932538128</updated>
-      <workItem from="1640932545166" duration="1260000" />
+      <workItem from="1640932545166" duration="3521000" />
     </task>
     <servers />
   </component>
@@ -79,5 +83,11 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="388" key="SettingsEditor" timestamp="1640935587574">
+      <screen x="0" y="40" width="3440" height="1400" />
+    </state>
+    <state x="361" y="388" key="SettingsEditor/0.40.3440.1400@0.40.3440.1400" timestamp="1640935587574" />
   </component>
 </project>

@@ -8,7 +8,7 @@ namespace beanstalk_net.DataAccess
 {
     public class AppDbContext : DbContext 
     {
-        public AppDbContext(DbContext options) : base(options)
+        public AppDbContext(DbContextOptions options) : base(options)
         {
         }
         
@@ -19,7 +19,7 @@ namespace beanstalk_net.DataAccess
             base.OnModelCreating(modelBuilder);
 
             var now = DateTime.UtcNow;
-            
+
             var notes = new List<Note>()
             {
                 new Note
@@ -43,11 +43,9 @@ namespace beanstalk_net.DataAccess
                     UpdatedOn = now,
                     CreatedOn = now
                 }
-                
-                
-                
-                
-            }
+            };
+
+            modelBuilder.Entity<Note>().HasData(notes);
         }
     }
 }
