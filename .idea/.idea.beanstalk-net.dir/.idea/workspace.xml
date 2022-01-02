@@ -17,6 +17,10 @@
         <option value="$PROJECT_DIR$/DataAccess/AppDbContext.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/appsettings.Development.json" />
+        <option value="$PROJECT_DIR$/Models/NotesViewModel.cs" />
+        <option value="$PROJECT_DIR$/Controllers/NotesController.cs" />
+        <option value="$PROJECT_DIR$/Views/Notes/Index.cshtml" />
+        <option value="$PROJECT_DIR$/appsettings.Production.json" />
       </list>
     </option>
   </component>
@@ -72,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640932538128</updated>
-      <workItem from="1640932545166" duration="3521000" />
+      <workItem from="1640932545166" duration="7932000" />
     </task>
     <servers />
   </component>
